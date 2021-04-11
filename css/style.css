@@ -1,0 +1,215 @@
+:root {
+  --blue-text: rgba(33, 150, 243, 1);
+  --black-logo: rgba(0, 0, 0, 1);
+  --black-text: rgba(33, 33, 33, 1);
+  --gray-text: rgba(117, 117, 117, 1);
+  --white-text: rgba(255, 255, 255, 1);
+  --white-text-op-60: rgba(255, 255, 255, 60%);
+  --back-gray: rgba(47, 48, 58, 1);
+  --back-white: rgba(245, 244, 250, 1);
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.header {
+  background-color: var(--white-text);
+}
+
+.logo-blue {
+  color: var(--blue-text);
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+.logo-blue:hover,
+:focus {
+  color: var(--blue-text);
+}
+
+.logo-black:hover,
+:focus {
+  color: var(--blue-text);
+}
+.logo-black {
+  color: var(--black-logo);
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+.list {
+  color: var(--black-text);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.list:hover,
+:focus {
+  color: var(--blue-text);
+}
+
+.list-address {
+  color: var(--gray-text);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.list-address:hover,
+:focus {
+  color: var(--blue-text);
+}
+.head {
+  background-color: var(--back-gray);
+}
+.hero {
+  color: var(--white-text);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+}
+.button {
+  color: var(--white-text);
+  background-color: var(--blue-text);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 16;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+}
+.button:hover,
+:focus {
+  color: var(--white-text);
+}
+.scroll-title {
+  color: var(--black-text);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+}
+.scroll-indent {
+  color: var(--gray-text);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+.heading {
+  color: var(--black-text);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+.heading-team{
+  color: var(--black-text);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+.name {
+  color: var(--black-text);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+.vocation {
+  color: var(--gray-text);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+.button-list {
+  color: var(--black-text);
+  background-color: var(--white-text);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  letter-spacing: 0.03em;
+}
+.button-list:hover,
+:focus {
+  color: var(--white-text);
+  background-color: var(--blue-text);
+}
+
+.projects {
+  color: var(--black-text);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.list-title {
+  color: var(--gray-text);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+}
+.footer {
+  background-color: var(--back-gray);
+}
+.logo-white {
+  color: var(--white-text);
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+address {
+  font-style: normal;
+}
+.address-city {
+  color: var(--white-text);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+.address-link {
+  color: var(--white-text-op-60);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
